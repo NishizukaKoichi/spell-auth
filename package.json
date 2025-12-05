@@ -1,0 +1,16 @@
+{
+  "name": "spell-auth",
+  "version": "0.1.0",
+  "description": "Identity & Session Management for Spell",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "vitest"
+  },
+  "keywords": ["spell", "auth", "passkey", "webauthn"],
+  "author": "",
+  "license": "MIT"
+}
